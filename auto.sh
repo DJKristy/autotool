@@ -13,7 +13,7 @@ if [ -e local_manifest.xml ]
 then
 echo "local_manifest.xml exist"
 else
-fgrep -e darwin -e intel -e device ../../default.xml > temp.txt
+fgrep -e darwin -e intel -e device ../manifest.xml > temp.txt
 cut -d ' ' -f 5 temp.txt > temp2.txt
 fi
 rm temp.txt
