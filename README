@@ -1,0 +1,7 @@
+This is a simple shell script to automatically create a local_manifest.xml file.
+
+Place the auto.sh in the root of your source directory.
+
+After creation of xml file you have to manually type in the tags(<remove-project> and </manifest>)
+
+This xml file removes some projects that I usually remove from default.xml
